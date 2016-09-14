@@ -17,6 +17,11 @@
 		02F184E71D89957A000E9B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F184E51D89957A000E9B56 /* LaunchScreen.storyboard */; };
 		02F184F21D89957A000E9B56 /* CrashyPlaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F184F11D89957A000E9B56 /* CrashyPlaneTests.swift */; };
 		02F184FD1D89957A000E9B56 /* CrashyPlaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F184FC1D89957A000E9B56 /* CrashyPlaneUITests.swift */; };
+		02F185101D899A90000E9B56 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 02F1850B1D899A90000E9B56 /* coin.wav */; };
+		02F185111D899A90000E9B56 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 02F1850C1D899A90000E9B56 /* explosion.wav */; };
+		02F185121D899A90000E9B56 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 02F1850D1D899A90000E9B56 /* music.m4a */; };
+		02F185131D899A90000E9B56 /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 02F1850E1D899A90000E9B56 /* PlayerExplosion.sks */; };
+		02F185141D899A90000E9B56 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F1850F1D899A90000E9B56 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		02F184F81D89957A000E9B56 /* CrashyPlaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashyPlaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F184FC1D89957A000E9B56 /* CrashyPlaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashyPlaneUITests.swift; sourceTree = "<group>"; };
 		02F184FE1D89957A000E9B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F1850B1D899A90000E9B56 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		02F1850C1D899A90000E9B56 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		02F1850D1D899A90000E9B56 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		02F1850E1D899A90000E9B56 /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		02F1850F1D899A90000E9B56 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,7 @@
 		02F184D51D89957A000E9B56 /* CrashyPlane */ = {
 			isa = PBXGroup;
 			children = (
+				02F1850A1D899A26000E9B56 /* Content */,
 				02F184D61D89957A000E9B56 /* AppDelegate.swift */,
 				02F184D81D89957A000E9B56 /* GameScene.sks */,
 				02F184DA1D89957A000E9B56 /* Actions.sks */,
@@ -132,6 +143,18 @@
 				02F184FE1D89957A000E9B56 /* Info.plist */,
 			);
 			path = CrashyPlaneUITests;
+			sourceTree = "<group>";
+		};
+		02F1850A1D899A26000E9B56 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				02F1850B1D899A90000E9B56 /* coin.wav */,
+				02F1850C1D899A90000E9B56 /* explosion.wav */,
+				02F1850D1D899A90000E9B56 /* music.m4a */,
+				02F1850E1D899A90000E9B56 /* PlayerExplosion.sks */,
+				02F1850F1D899A90000E9B56 /* spark.png */,
+			);
+			name = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +266,12 @@
 			files = (
 				02F184E21D89957A000E9B56 /* Main.storyboard in Resources */,
 				02F184D91D89957A000E9B56 /* GameScene.sks in Resources */,
+				02F185121D899A90000E9B56 /* music.m4a in Resources */,
+				02F185131D899A90000E9B56 /* PlayerExplosion.sks in Resources */,
+				02F185111D899A90000E9B56 /* explosion.wav in Resources */,
+				02F185141D899A90000E9B56 /* spark.png in Resources */,
 				02F184E41D89957A000E9B56 /* Assets.xcassets in Resources */,
+				02F185101D899A90000E9B56 /* coin.wav in Resources */,
 				02F184E71D89957A000E9B56 /* LaunchScreen.storyboard in Resources */,
 				02F184DB1D89957A000E9B56 /* Actions.sks in Resources */,
 			);
